@@ -1,0 +1,22 @@
+{% load static %}<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/stylesheet.css' %}">
+    <script src="https://kit.fontawesome.com/22f0cfa09f.js" crossorigin="anonymous"></script>
+    <title>{% block title %}ダミー{% endblock %}</title>
+</head>
+<body>
+<div class="container-fluid" style="background-color: #fffffc">
+    {% block content %}<p>ダミー</p>{% endblock %}
+    <div class="container mt-5">
+        <p>Copyright © 2021 android-sushi.tech All Rights Reserved.</p>
+        <p>Thanks for browsing!</p>
+    </div>
+    <script type="text/javascript" src="{% static 'js/mdb.min.js' %}"></script>
+</div>
+</body>
+</html>

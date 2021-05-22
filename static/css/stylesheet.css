@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --mdb-font-roboto: "Noto Sans JP", sans-serif;
+}
+
+.color1 { color: #ffadad; }
+.color2 { color: #ffd6a5; }
+.color3 { color: #fdffb6; }
+.color4 { color: #caffbf; }
+.color5 { color: #9bf6ff; }
+.color6 { color: #a0c4ff; }
+.color7 { color: #bdb2ff; }
+.color8 { color: #ffc6ff; }
+.color9 { color: #fffffc; }
